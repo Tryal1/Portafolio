@@ -29,10 +29,8 @@ export default function Home() {
     <BarraNav/>
       <main className={styles.main}>
         <div className={styles.title}>
-          <h1>
-          Hi I'M Thomas Carreño
-          </h1>
-          <img src='mifoto.png' />
+          <h1>Hi I&apos;M <br/> Thomas Carreño</h1>
+          <img src='mifoto.png'/>
         </div>
 
         <section className={styles.about} id="about" >
