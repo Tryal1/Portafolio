@@ -40,7 +40,7 @@ export default function Home() {
                   Soy Argentino estudiante de programacion en la UTN, tambien me auto
                   capacito adquierndo conocimientos de nuevos lenguajes,tengo experiencia
                   en el desarrollo de aplicaciones web en equipo y de forma individual, busco desarrollar
-                  mis habilidades profecionalmente, soy una persona perseverante y analitico
+                  mis habilidades profesionalmente, soy una persona perseverante y analitico
                   que me gustan los desafios
                   </p>
               </div>
