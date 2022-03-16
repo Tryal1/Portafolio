@@ -18,10 +18,10 @@ const  BarraNav = ()=>{
         <nav className={styles.navMobile}>
           <div className={styles.enlaces}>
             <ul>
-              <li><a href='#about'>About Me</a></li>
+              <li><a href='#about'>Sobre Mi</a></li>
               <li><a href='#skill'>Skills</a></li>
-              <li><a href='#portfolio'>Portfolio</a></li>
-              <li><a href='#contact'>Contact</a></li>
+              <li><a href='#portfolio'>Portafolio</a></li>
+              <li><a href='#contact'>Contacto</a></li>
             </ul>
           </div>
         </nav>

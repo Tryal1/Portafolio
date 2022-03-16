@@ -18,10 +18,10 @@ export default function Home() {
           <Link href='/'>Thomas</Link>
           <div className={styles.enlaces}>
             <ul>
-              <li><Link href='#about'>About Me</Link></li>
+              <li><Link href='#about'>Sobre Mi</Link></li>
               <li><Link href='#skill'>Skills</Link></li>
-              <li><Link href='#portfolio'>Portfolio</Link></li>
-              <li><Link href='#contact'>Contact</Link></li>
+              <li><Link href='#portfolio'>Portafolio</Link></li>
+              <li><Link href='#contact'>Contacto</Link></li>
             </ul>
           </div>
         </nav>
@@ -29,12 +29,12 @@ export default function Home() {
     <BarraNav/>
       <main className={styles.main}>
         <div className={styles.title}>
-          <h1>Hi I&apos;M <br/> Thomas Carreño</h1>
+          <h1>Hola yo soy <br/> Thomas Carreño</h1>
           <img src='mifoto.png'/>
         </div>
 
         <section className={styles.about} id="about" >
-            <h2>About Me</h2>
+            <h2>Sobre mi</h2>
               <div className={styles.contenidoAbout}>
                   <p className="">
                   Soy estudiante de programacion en la UTN, tambien me auto
@@ -46,7 +46,7 @@ export default function Home() {
               </div>
               <div className={styles.btnCv}>
                       <a href="Thomas-Carreño.pdf" download className="">
-                          DOWNLOAD CV<i className=""></i>
+                          Descargar CV<i className=""></i>
                       </a>
               </div>
         </section>
@@ -74,12 +74,12 @@ export default function Home() {
         </section>
 
         <section id='portfolio'>
-          <h2>Portfolio</h2>
+          <h2>Portafolio</h2>
           <Slider/>
         </section>
 
         <section id='contact'>
-          <h2>Contact</h2>
+          <h2>Contacto</h2>
           <div className={styles.contact}>
             <a href='https://www.linkedin.com/in/thomas-carre%C3%B1o-b73107160/'><div><img src='linkedin.jpg'/><p>Thomas Carreño</p></div></a>
             <a><div><img src='wpp.png'/> <p>+54 9 11 5911 1677</p></div></a>
