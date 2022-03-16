@@ -37,7 +37,7 @@ export default function Home() {
             <h2>About Me</h2>
               <div className={styles.contenidoAbout}>
                   <p className="">
-                  Soy Argentino estudiante de programacion en la UTN, tambien me auto
+                  Soy estudiante de programacion en la UTN, tambien me auto
                   capacito adquierndo conocimientos de nuevos lenguajes,tengo experiencia
                   en el desarrollo de aplicaciones web en equipo y de forma individual, busco desarrollar
                   mis habilidades profesionalmente, soy una persona perseverante y analitico
@@ -45,7 +45,7 @@ export default function Home() {
                   </p>
               </div>
               <div className={styles.btnCv}>
-                      <a href="" download className="">
+                      <a href="Thomas-Carreño.pdf" download className="">
                           DOWNLOAD CV<i className=""></i>
                       </a>
               </div>
