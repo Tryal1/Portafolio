@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import BarraNav from './barraNav'
 import Slider from './slider'
@@ -17,10 +18,10 @@ export default function Home() {
           <a href='/'>Thomas</a>
           <div className={styles.enlaces}>
             <ul>
-              <li><a href='#about'>About Me</a></li>
-              <li><a href='#skill'>Skills</a></li>
-              <li><a href='#portfolio'>Portfolio</a></li>
-              <li><a href='#contact'>Contact</a></li>
+              <li><Link href='#about'>About Me</Link></li>
+              <li><Link href='#skill'>Skills</Link></li>
+              <li><Link href='#portfolio'>Portfolio</Link></li>
+              <li><Link href='#contact'>Contact</Link></li>
             </ul>
           </div>
         </nav>
