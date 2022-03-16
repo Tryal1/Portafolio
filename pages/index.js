@@ -30,7 +30,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.title}>
           <h1>
-          Hi I'M <br/> Thomas Carreño
+          Hi I'M Thomas Carreño
           </h1>
           <img src='mifoto.png' />
         </div>
