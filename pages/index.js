@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <header className={styles.header}>
         <nav className={styles.nav} >
-          <a href='/'>Thomas</a>
+          <Link href='/'>Thomas</Link>
           <div className={styles.enlaces}>
             <ul>
               <li><Link href='#about'>About Me</Link></li>
