@@ -29,7 +29,7 @@ export default function Home() {
     <BarraNav/>
       <main className={styles.main}>
         <div className={styles.title}>
-          <h1>Hola yo soy <br/> Thomas Carreño</h1>
+          <h1>Hola soy <br/> Thomas Carreño</h1>
           <img src='mifoto.png'/>
         </div>
 
