@@ -6,15 +6,15 @@ const Slider = () =>{
     const [page , setPage] = useState(1)
 
     const next = () =>{
-        if(page<3){
+        if(page<4){
             setPage(page+1)
-        }else if(page == 3){
+        }else if(page == 4){
             setPage(1)
         }
     }
     const prev = () =>{
         if(page == 1){
-            setPage(3)
+            setPage(4)
         }else if(page>1){
             setPage(page-1)
         } 
