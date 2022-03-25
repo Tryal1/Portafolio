@@ -81,10 +81,10 @@ export default function Home() {
         <section id='contact'>
           <h2>Contacto</h2>
           <div className={styles.contact}>
-            <a href='https://www.linkedin.com/in/thomas-carre%C3%B1o-b73107160/'><div><img src='linkedin.jpg'/><p>Thomas Carreño</p></div></a>
+            <a target='_blank' href='https://www.linkedin.com/in/thomas-carre%C3%B1o-b73107160/'><div><img src='linkedin.jpg'/><p>Thomas Carreño</p></div></a>
             <a><div><img src='wpp.png'/> <p>+54 9 11 5911 1677</p></div></a>
-            <a href='mailto:thomascarreno02@gmail.com'><div><img src='email.jpg'/> <p>thomascarreno02@gmail.com</p></div></a>
-            <a href='https://github.com/Tryal1'><div><img src='github.jpg'/> <p>Thomas Carreño</p></div></a>
+            <a target='_blank' href='mailto:thomascarreno02@gmail.com'><div><img src='email.jpg'/> <p>thomascarreno02@gmail.com</p></div></a>
+            <a target='_blank' href='https://github.com/Tryal1'><div><img src='github.jpg'/> <p>Thomas Carreño</p></div></a>
           </div>
         </section>
       </main>

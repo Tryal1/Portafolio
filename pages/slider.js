@@ -25,6 +25,25 @@ const Slider = () =>{
             <div className={styles.contenedorSlider}>
             <div className={styles.slider}>
                 <div className={styles.prev}><img onClick={prev} className={styles.flechas} src="flechai.png"/></div>
+                <a target='_blank' href="https://weather-api-omega.vercel.app/"> <img className={styles.imgPorfolio} src="weatherApi.png"/></a>
+                <div>
+                <h2>Weather api</h2>
+                    <p>
+                    Proyecto realizado en react y el manejo de Css con styled component,
+                    saca la informacion de una api externa
+                    </p>
+                </div>
+                <div className={styles.next}><img onClick={next} className={styles.flechas} src="flechad.png"/></div>
+            </div>
+            </div>
+        )
+    }
+
+    if(page == 3){
+        return(
+            <div className={styles.contenedorSlider}>
+            <div className={styles.slider}>
+                <div className={styles.prev}><img onClick={prev} className={styles.flechas} src="flechai.png"/></div>
                 <a href="https://github.com/Tryal1/Batalla-Naval"> <img className={styles.imgPorfolio} src="batalla-naval.png"/></a>
                 <div>
                 <h2>Batta Naval</h2>
@@ -40,7 +59,7 @@ const Slider = () =>{
         )
     }
 
-    if(page == 3){
+    if(page == 4){
         return(
             <div className={styles.contenedorSlider}>
             <div className={styles.slider}>
@@ -64,7 +83,7 @@ const Slider = () =>{
         <div className={styles.contenedorSlider}>
             <div className={styles.slider}>
                 <div className={styles.prev}><img onClick={prev} className={styles.flechas} src="flechai.png"/></div>
-                <a href="https://poke-api-envt12tkn-tryal1.vercel.app/"> <img className={styles.imgPorfolio} src="pokeApi.png"/></a>
+                <a target='_blank' href="https://poke-api-envt12tkn-tryal1.vercel.app/"> <img className={styles.imgPorfolio} src="pokeApi.png"/></a>
                 <div>
                 <h2>PokeApi</h2>
                     <p>

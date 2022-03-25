@@ -175,13 +175,14 @@
 .slider{
   display: flex;
   justify-content: center;
-  align-items: center;
+  
   gap: 2rem;
   width: 900px;
   position: relative;
 }
 .slider p{
   font-size: 18px;
+  margin: 0;
 }
 .slider h2{
   margin: 0;
