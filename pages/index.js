@@ -37,11 +37,11 @@ export default function Home() {
             <h2>Sobre mi</h2>
               <div className={styles.contenidoAbout}>
                   <p className="">
-                  Soy estudiante de programacion en la UTN, tambien me auto
+                  Soy estudiante de programación en la UTN, también me auto
                   capacito adquierndo conocimientos de nuevos lenguajes,tengo experiencia
-                  en el desarrollo de aplicaciones web en equipo y de forma individual, busco desarrollar
-                  mis habilidades profesionalmente, soy una persona perseverante y analitico
-                  que me gustan los desafios
+                  en el desarrollo de aplicaciones web, en equipo y de forma individual. Busco desarrollar
+                  mis habilidades profesionalmente, soy una persona perseverante y analitico que busca nuevos
+                  desafios para desarrollar mis habilidades profesionales.
                   </p>
               </div>
               <div className={styles.btnCv}>
