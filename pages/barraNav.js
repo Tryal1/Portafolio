@@ -14,7 +14,7 @@ const  BarraNav = ()=>{
     if(estado){
         return(
         <div className={styles.mobile}>
-        <img onClick={False} src="barras.svg" alt="barra"/>
+        <img  onClick={False} className={styles.girarBarrasDerecha} src="barras.svg" alt="barra"/>
         <nav className={styles.navMobile}>
           <div className={styles.enlaces}>
             <ul>
@@ -30,7 +30,7 @@ const  BarraNav = ()=>{
     }
     return(
         <div className={styles.mobile}>
-        <img src="barras.svg" onClick={True} alt="barra"/>
+        <img className={styles.girarBarrasIzquierda} src="barras.svg" onClick={True} alt="barra"/>
         </div>
     ) 
     

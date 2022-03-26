@@ -1,3 +1,21 @@
+@keyframes girarD{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+
+}
+@keyframes girarI{
+  0% {
+    transform: rotate(180deg);
+  }
+  100%{
+      transform: rotate(0deg);
+  }
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -88,13 +106,44 @@
   list-style: none;
 }
 
+.mobile{
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  height: 70px;
+}
+
+.mobile li{
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .mobile img{
   visibility: hidden;
   color: black;
   width: 2rem;
-    top: 1;
-    left: 1;
+  top: 1;
+  left: 1;
 }
+
+.girarBarrasDerecha{
+  animation-name: girarD;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+}
+.girarBarrasIzquierda{
+  animation-name: girarI;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+}
+
+.mobile img:hover{
+  cursor: pointer;
+}
+
 @media(max-width: 600px) {
   .mobile img{
     visibility: visible;
@@ -105,6 +154,7 @@
 .navMobile{
   visibility: hidden;
 }
+
 @media(max-width: 600px) {
   .navMobile{
     visibility: visible;
