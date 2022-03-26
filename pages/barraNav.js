@@ -32,9 +32,7 @@ const  BarraNav = ()=>{
         <div className={styles.mobile}>
         <img className={styles.girarBarrasIzquierda} src="barras.svg" onClick={True} alt="barra"/>
         </div>
-    ) 
-    
-
+    )
 }
 
 export default BarraNav
