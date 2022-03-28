@@ -83,7 +83,7 @@ const Slider = () =>{
         <div className={styles.contenedorSlider}>
             <div className={styles.slider}>
                 <div className={styles.prev}><img onClick={prev} className={styles.flechas} src="flechai.png"/></div>
-                <a target='_blank' rel="noreferrer" href="https://poke-api-envt12tkn-tryal1.vercel.app/"> <img className={styles.imgPorfolio} src="pokeApi.png"/></a>
+                <a target='_blank' rel="noreferrer" href="https://poke-api-seven.vercel.app/"> <img className={styles.imgPorfolio} src="pokeApi.png"/></a>
                 <div>
                 <h2>PokeApi</h2>
                     <p>
